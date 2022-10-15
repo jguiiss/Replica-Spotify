@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sessão - Spotify</title>
+    <link rel="stylesheet" href="entrar.css">
+    <link rel="icon" href="imagens/favicon.png">
+</head>
+<a href="index.html">
+    <header><img src="imagens/spotify1.svg" alt=""></header>
+</a>
+<body>
+    <h1>Para continuar, inicie sua sessão no Spotify.</h1>
+    <ul>
+        <li><a href="#"><button class="buttonfb"><img src="imagens/facebook (1).svg" class="img2"></button></a></li>
+        <li><button><img src="imagens/google.svg" class="img2"></button></li>
+    </ul>
+
+    <b>Ou</b>
+    <div class="content">
+    <div id="login">
+        <form method="post" action=""> 
+          <p> 
+            <label for="nome_login">E-mail ou Nome de Usuário</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="E-mail ou Nome de Usuário"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Senha</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="Senha" /> 
+          </p>
+
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="INICIAR SESSÃO" /> 
+          </p>
+          <p>
+          Não possui uma conta?
+        </p>
+          <button class="cadastrar">
+            <a href="sign_up.html">Cadastre-se</a>
+          </pbutton>
+        </form>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    width: 150px;
+    height: 100px;
+}
+h1 {
+    font-size: 20px;
+}
+ul li {
+    list-style: none;
+    margin: 15px;
+}
+button{
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 15px;
+    width: 250px;
+}
+.buttonfb {
+    background: #485a96;
+}
+.img2 {
+    width: 20px;
+    height: 20px;
+}
+h3{
+    padding: 5px;
+}
+.content{
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+  }
+.formh1{
+    font-size: 48px;
+    color: #000000;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  p{
+    padding: 10px;
+  }
+   
+  .content p:first-child{
+    margin: 0px;
+  }
+   
+  label{
+    color: #000000;
+    position: relative;
+    font-weight: bold;
+  }
+  ::-webkit-input-placeholder  {
+    color: #bebcbc; 
+    font-style: italic;
+  }
+   
+  input:-moz-placeholder,
+  textarea:-moz-placeholder{
+    color: #bebcbc;
+    font-style: italic;
+  } 
+   
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+   
+  input[type="submit"]{
+    width: 250px!important;
+    cursor: pointer;  
+    background: #1ed760;
+    padding: 8px 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;  
+    border-radius: 30px;
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+   
+    transition: all 0.2s;
+  }
+   
+
+  input[type="submit"]:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+  }
+  button:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    cursor: pointer;  
+  }
