@@ -1,0 +1,224 @@
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-attachment: fixed;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-wrap: break-word;
+    overflow: break-word;
+}
+nav.navbar-transparente {
+	padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.container1 {
+	height: 100vh !important;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+section.module:last-child {
+    margin-bottom: 0;
+}
+section.module.content {
+    padding: 40px 0;
+	background: linear-gradient(175deg, #1b9747 0, #121212, #121212, #121212, #121212, #121212);
+}
+section.module.content h1{
+	font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+	margin-left: 40px;
+	margin-top: 100px;
+	padding-bottom: 15px;
+    font-size: 1.125rem;
+    color: #a7a7a7;
+	font-weight: 300;
+}
+section.module.content h2{
+	font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+	margin-left: 40px;
+    font-size: 70px;
+	font-weight: 1000;
+    color: #fff;
+}
+section.module.content button {
+    border-radius: 30px;
+    border-color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+section.module.content button:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+#frase3 {
+	display: block !important;
+	font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    color: var(--text-subdued,#6a6a6a);
+	padding-bottom: 50px;
+}
+section.module.content input{
+	background-image: url(imagens/icone-search.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	padding-left: 35px;
+	width: 596px;
+	margin-left: 40px;
+	background-position: 2%;
+	border-radius: 5px;
+}
+.lista1 {
+	display: flex;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.lista2 {
+	display: flex;
+	list-style: none;
+}
+section.module.content li {
+	padding-left: 10px;
+}
+
+    /*section2*/
+	.container2 {
+		width: 100%;
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+	section.module2:last-child {
+		margin-bottom: 0;
+	}
+	section.module.content2 {
+		padding: 40px 0;
+		background-color: #232323;
+	}
+	section.module.content2 h1{
+		font-size: 28px;
+		color: rgb(255, 255, 255);
+		padding-bottom: 22px;
+		margin-left: 40px;
+	}
+	section.module.content2 ul li {
+		display: block;
+		color: #fff;
+		cursor: pointer;
+		padding: 20px 0;
+	}
+	section.module.content ul  li:first-child {
+		padding: 0;
+	}
+	.cor {
+		color: #fff;
+	}
+	.cor:hover {
+		color: #fff;
+	}
+
+
+/*section3*/
+.container3 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.module3:last-child {
+    margin-bottom: 0;
+}
+section.module.content3 {
+    padding: 40px 0;
+    background-color: #121212;
+    text-align: center;
+	height: 350px;
+}
+section.module.content3 h1{
+    font-size: 45px;
+    color: #fff;
+}
+.container3 h6 {
+	color: #fff;
+}
+section.module.content3 button {
+    border-radius: 30px;
+    background-color: #1ed760;
+    outline: none;
+    cursor: pointer;
+    width: 290px;
+    height: 50px;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+section.module.content3 button:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    cursor: pointer;  
+  }
