@@ -7,8 +7,6 @@ html, body, #home {
 body {
 	background-attachment: fixed;
 	font-family: sans-serif;
-    word-wrap: break-word;
-    overflow: break-word;
 }
 
 /* Barra de navegação
@@ -35,6 +33,9 @@ nav.navbar-transparente {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+}
+.navbar-brand {
+    margin-left: -150px;
 }
 
 /* Rodapé
